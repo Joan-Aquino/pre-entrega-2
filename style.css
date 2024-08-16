@@ -82,12 +82,54 @@ body.cuerpo {
    margin-right: 20px;
 }
 
+.img-musculacion{
+   width: 50%;
+   height: 50%;
+   display: flex;
+   padding-left: 5px;
+}
+
+.img-boxeo{
+   width: 50%;
+   height: 50%;
+   display: flex;
+}
+
+.img-crossfit{
+   width: 50%;
+   height: 50%;
+   display: flex;
+}
+
+.img-gap{
+   width: 80%;
+   height: 80%;
+   padding-left: 10%;
+   padding-right: 10;
+   
+   display: flex;
+}
+
+.img-funcional{
+   width: 50%;
+   height: 50%;
+   padding-left: 2%;
+   display: flex;
+
+}
+
+.img-muay-thay{
+   width: 50%;
+   height: 50%;
+   display: flex;
+}
 
 .contenedor-nosotros {
    padding: 20px;
    background-color: #ddd;
    text-align: center;
 }
+
 
 
 .contenido-footer {
