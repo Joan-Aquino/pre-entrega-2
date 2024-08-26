@@ -69,45 +69,66 @@ body.cuerpo {
 
 .img-texto {
    display: flex;
-   flex-wrap: wrap;
    align-items: center;
    justify-content: space-between;
    padding: 20px;
    background-color: #000000;
+   min-height: 100px;
 }
 
-.img-texto img {
-   max-width: 100%;
-   height: auto;
-   margin-right: 20px;
-}
+
 
 .img-musculacion{
    width: 50%;
-   height: 50%;
+   height: auto;
    display: flex;
-   padding-left: 5px;
+   float: left;
+   border: 3px solid #fff;
+   border-radius: 10px;
+   margin-right: 20px ;
+
+}
+
+p {
+   flex: 1;
+   color: #fff;
+   text-align:center;
+   text-emphasis: none;
+   
 }
 
 .img-boxeo{
    width: 50%;
    height: 50%;
    display: flex;
+   float: left;
+   border: 3px solid #fff;
+   border-radius: 10px;
+   margin-right: 20px ;
+
 }
 
 .img-crossfit{
    width: 50%;
    height: 50%;
    display: flex;
+   float: left;
+   border: 3px solid #fff;
+   border-radius: 10px;
+   margin-right: 20px ;
+
 }
 
 .img-gap{
    width: 80%;
    height: 80%;
-   padding-left: 10%;
-   padding-right: 10;
-   
+   justify-content: center;
    display: flex;
+   float: left;
+   border: 3px solid #fff;
+   border-radius: 10px;
+   margin-right: 20px ;
+
 }
 
 .img-funcional{
@@ -115,6 +136,10 @@ body.cuerpo {
    height: 50%;
    padding-left: 2%;
    display: flex;
+   float: left;
+   border: 3px solid #fff;
+   border-radius: 10px;
+   margin-right: 20px ;
 
 }
 
@@ -122,11 +147,16 @@ body.cuerpo {
    width: 50%;
    height: 50%;
    display: flex;
+   float: left;
+   border: 3px solid #fff;
+   border-radius: 10px;
+   margin-right: 20px ;
+
 }
 
 .contenedor-nosotros {
    padding: 20px;
-   background-color: #ddd;
+   background-color: #3f3939;
    text-align: center;
 }
 
@@ -188,7 +218,7 @@ body.cuerpo {
 .grid-container {
    display: grid;
    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-   gap: 20px;
+   gap: 150px;
    margin: 20px 0;
 }
 
