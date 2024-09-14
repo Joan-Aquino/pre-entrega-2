@@ -1,0 +1,418 @@
+/*base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*components*/
+.footer-pagina {
+  background-color: #000;
+  color: #fff;
+  padding: 24px;
+  text-align: center;
+}
+.footer-pagina .ofertas {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 16px;
+  flex-wrap: wrap;
+}
+.footer-pagina .oferta {
+  background-color: #fff;
+  color: #000;
+  padding: 16px;
+  border-radius: 5px;
+  text-align: left;
+  width: 23%;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 320px) {
+  .ofertas {
+    flex-direction: column;
+    align-items: center;
+  }
+  .oferta {
+    width: 80%;
+    text-align: center;
+  }
+  .oferta .redes-sociales {
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+  }
+  .oferta .redes-sociales .red-social {
+    margin: 0 8px;
+    display: flex;
+    align-items: center;
+  }
+  .oferta .redes-sociales .red-social img {
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+  }
+  .oferta .redes-sociales .red-social a {
+    color: #fff;
+  }
+  .oferta .redes-sociales .red-social a:hover {
+    color: white;
+  }
+}
+.contenido-actividad {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #000000;
+  min-height: 100px;
+}
+
+.imagen-actividad {
+  width: 50%;
+  height: auto;
+  display: flex;
+  float: left;
+  border: 3px solid #fff;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+
+p {
+  flex: 1;
+  color: #fff;
+  text-align: center;
+  text-emphasis: none;
+}
+
+.imagen-actividad {
+  width: 50%;
+  height: 50%;
+  display: flex;
+  float: left;
+  border: 3px solid #fff;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+
+.imagen-actividad {
+  width: 50%;
+  height: 50%;
+  display: flex;
+  float: left;
+  border: 3px solid #fff;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+
+.imagen-actividad {
+  width: 80%;
+  height: 80%;
+  justify-content: center;
+  display: flex;
+  float: left;
+  border: 3px solid #fff;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+
+.imagen-actividad {
+  width: 50%;
+  height: 50%;
+  padding-left: 2%;
+  display: flex;
+  float: left;
+  border: 3px solid #fff;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+
+.imagen-actividad {
+  width: 50%;
+  height: 50%;
+  display: flex;
+  float: left;
+  border: 3px solid #fff;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+
+.navbar-brand {
+  color: #662b2b;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav-link {
+  color: #ffffff;
+  margin-left: 15px;
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba%287%2C%2024%2C%2050%2C%201%29' stroke-width='2' linecap='round' linejoin='round' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.cuerpo {
+  background-color: #f7f7f7;
+}
+
+.contenedor-encabezado {
+  background-color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0;
+  background-color: #180f0f;
+}
+
+.logo-espartanos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imagen-espartanos {
+  width: 100px;
+  height: auto;
+}
+
+/*layout*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.cuerpo-principal {
+  font-family: Arial, sans-serif;
+  background-color: #d40e0e;
+}
+
+.contenedor-encabezado {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: #180f0f;
+}
+
+.logo-espartanos {
+  width: 50px;
+  height: auto;
+}
+
+.navbar-brand {
+  color: #662b2b;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav-link {
+  color: #ffffff;
+  margin-left: 15px;
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba%287%2C%2024%2C%2050%2C%201%29' stroke-width='2' linecap='round' linejoin='round' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.seccion-actividades {
+  padding: 20px;
+  text-align: center;
+}
+
+.lista-clases-gym {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.lista-clases-gym li {
+  margin: 10px;
+}
+
+.lista-clases-gym a {
+  color: #000000;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.contenido-actividad {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #000000;
+  min-height: 100px;
+}
+
+.imagen-actividad {
+  width: 50%;
+  height: auto;
+  display: flex;
+  float: left;
+  border: 3px solid #fff;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+
+p {
+  flex: 1;
+  color: #fff;
+  text-align: center;
+  text-emphasis: none;
+}
+
+.imagen-actividad {
+  width: 50%;
+  height: 50%;
+  display: flex;
+  float: left;
+  border: 3px solid #fff;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+
+.imagen-actividad {
+  width: 50%;
+  height: 50%;
+  display: flex;
+  float: left;
+  border: 3px solid #fff;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+
+.imagen-actividad {
+  width: 80%;
+  height: 80%;
+  justify-content: center;
+  display: flex;
+  float: left;
+  border: 3px solid #fff;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+
+.imagen-actividad {
+  width: 50%;
+  height: 50%;
+  padding-left: 2%;
+  display: flex;
+  float: left;
+  border: 3px solid #fff;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+
+.imagen-actividad {
+  width: 50%;
+  height: 50%;
+  display: flex;
+  float: left;
+  border: 3px solid #fff;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+
+.seccion-nosotros {
+  padding: 20px;
+  background-color: #3f3939;
+  text-align: center;
+}
+
+.footer-pagina {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.sucursales {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.mapa {
+  width: 100%;
+  max-width: 300px;
+  margin: 10px 0;
+}
+
+.imagen-pago {
+  width: 100px;
+}
+
+.metodos-pago {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+.matodos-pago li {
+  display: inline;
+  margin: 0 10px;
+}
+
+.red-social {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0;
+}
+
+.logo-whatsapp {
+  width: 250px;
+}
+
+.logo-instagram {
+  width: 350px;
+}
+
+.redes-sociales div {
+  text-align: center;
+}
+
+.ofertas {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 150px;
+  margin: 20px 0;
+}
+
+.ofertas .oferta {
+  background-color: #444;
+  color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .img-texto {
+    flex-direction: column;
+  }
+  .navbar-nav {
+    text-align: center;
+  }
+  .navbar-nav .nav-item {
+    margin-bottom: 10px;
+  }
+  .sucursales {
+    flex-direction: column;
+  }
+  .redes-sociales {
+    flex-direction: column;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

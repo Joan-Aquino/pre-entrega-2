@@ -1,0 +1,24 @@
+.cuerpo{
+    background-color: $color-fondo;
+}
+
+.contenedor-encabezado {
+    background-color: $color-principal;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+    background-color: #180f0f;
+ }
+
+.logo-espartanos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagen-espartanos{
+    width: 100px;
+    height: auto;
+}
+
